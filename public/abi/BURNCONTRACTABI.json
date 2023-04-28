@@ -1,0 +1,66 @@
+[
+  {
+    "type": "constructor",
+    "inputs": [
+      {
+        "type": "address",
+        "name": "_devotedDawgsAddress",
+        "internalType": "address"
+      }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "burn",
+    "inputs": [
+      { "type": "uint256", "name": "tokenId", "internalType": "uint256" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "address", "name": "", "internalType": "address" }],
+    "name": "burnAddress",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "burnAll",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [
+      {
+        "type": "address",
+        "name": "",
+        "internalType": "contract IDevotedDawgs"
+      }
+    ],
+    "name": "devotedDawgs",
+    "inputs": []
+  },
+  {
+    "type": "function",
+    "stateMutability": "view",
+    "outputs": [{ "type": "uint256", "name": "", "internalType": "uint256" }],
+    "name": "getTotalTokenCount",
+    "inputs": [
+      { "type": "address", "name": "owner", "internalType": "address" }
+    ]
+  },
+  {
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "outputs": [],
+    "name": "setApprovalForBurn",
+    "inputs": [
+      { "type": "uint256", "name": "tokenId", "internalType": "uint256" }
+    ]
+  }
+]
